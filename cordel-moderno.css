@@ -54,8 +54,9 @@ section.imagem {
     background-color: rgba(0, 0, 0, 0.514);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
+    
 }
 
 section.imagem > p {
@@ -63,6 +64,7 @@ section.imagem > p {
     display: inline-block;
     padding:5px;
     text-shadow: 1px 1px 0px black;
+
     
 }
 a {
